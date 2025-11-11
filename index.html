@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main heading -->
+    <h1 class="main-heading">Welcome to Your Daily Space</h1>
+    <!-- Greeting -->
+    <h2 class="greet-heading"></h2>
+    <!-- Time and Date -->
+    <div class="time-date">
+      <h3 class="date"></h3>
+      <h3 class="time"></h3>
+    </div>
+    <!-- Qoute Section -->
+    <div class="qoute-of-day">
+      <h2>Your Qoute of the day</h2>
+      <h4 class="qoute"></h4>
+      <button class="qoute-btn">Get New Qoute</button>
+    </div>
+    <!-- Weather section -->
+    <div class="weather-section">
+      <!-- heading and input -->
+      <div class="info-sec">
+        <h2 id="weather-head">Get Weather update in your city!</h2>
+        <input id="city-name" type="text" placeholder="Enter your city name" />
+        <button id="weather-btn">Get Weather</button>
+      </div>
+      <!-- Weather info card -->
+      <div class="weather-card">
+        <p class="city-name">Your City:</p>
+        <p class="weather">Weather condition:</p>
+        <p class="temprature">Temprature:</p>
+        <p class="feel-like">Feels-like:</p>
+        <p class="humidity">Humidity:</p>
+        <p class="pressure">Pressure:</p>
+        <p class="wind-speed">wind Speed:</p>
+      </div>
+    </div>
+    <!-- todo from deepseek -->
+         <div class="container">
+        <h1>Todo List</h1>
+        <div class="input-section">
+            <input type="text" id="addTaskInput" placeholder="Add a new task...">
+            <button id="addTaskBtn" class="add-task-btn">Add Task</button>
+        </div>
+        <ul id="todoUl"></ul>
+    </div>
+    
+    <!-- <script src="todo.js"></script> -->
+     <!-- my todo code -->
+    <!-- <div class="todo-section">
+      <h1 class="todo-heading">Your Daily Tasks</h1>
+      <input type="text" class="todo-input" placeholder="Enter your task" />
+      <button class="add-task-btn">Add Task!</button>
+      <ul class="tasks-list"></ul>
+    </div> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
